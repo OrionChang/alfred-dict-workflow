@@ -26,6 +26,8 @@ def shell_exec(cmd, arg, escape=False):
     os.system(cmd.format("'{}'".format(arg.replace("'", "\\'"))))
 
 
+
+
 plist = AlfredPlist()
 plist.read(os.path.abspath('./info.plist'))
 

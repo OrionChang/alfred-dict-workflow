@@ -21,14 +21,14 @@
     // ** run internal command 'update' to take effect **
     "keymap":
     {
-        "none": "open",
+        "none": "say",
         "ctrl": "cb",
         "alt": "yd",
         "shift": "hc",
         "cmd": "nj",
-        "fn": "by"
+        "fn": "ld"
     },
-    
+
     // dictionary options
     // these options will be passed to `lookup` function as argument
     // ** don't change these options unless you are aware of what you are doing **
